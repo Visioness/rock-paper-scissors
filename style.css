@@ -1,0 +1,28 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cascadia Code", 'Courier New', Courier, monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(15, 8, 34);
+  color: rgb(64, 141, 68);
+  padding: 80px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+code {
+  font-size: 50px;
+  font-weight: 800;
+  padding: 0 0 0 12px;
+  background-color: rgba(19, 182, 168, 0.281);
+}
